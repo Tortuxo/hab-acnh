@@ -30,8 +30,6 @@ h2 {
 
 img {
     width: 500px;
-    border: solid;
-    display: block;
     margin-left: auto;
     margin-right: auto;
   }
@@ -77,6 +75,23 @@ a {
     justify-content: center;
     text-decoration: none;
   }
+
+.image_perso {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 5px solid rgb(29, 145, 180);
+    box-shadow: 6px 6px 25px rgba(29, 145, 180, 0.5);
+    text-decoration: none;
+    display:block;
+    width:500px;
+    height:500px;
+    margin:auto;
+} 
+
+.image_perso:hover {
+    color:black;
+} 
+
 
 .box:hover {
     color:black;
